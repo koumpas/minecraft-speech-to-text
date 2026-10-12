@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "minecraft_speech_to_text",
+	"version": "${version}",
+	"name": "Minecraft Speech to Text",
+	"description": "Hold a key, speak, and put the transcript into Minecraft chat.",
+	"authors": [
+		"Alex Koumpas"
+	],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.koumpas.minecraftspeech.client.MinecraftSpeechToTextClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
+
